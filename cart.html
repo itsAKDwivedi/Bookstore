@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Ayush's Bookstore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Shopping Cart</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html" target="_top">Home</a></li>
+                <li><a href="login.html" target="_top">Login</a></li>
+                <li><a href="catalogue.html" target="_top">Catalogue</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="cart">
+        <h2>Selected Books</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody id="cartItems">
+                <tr>
+                    <td>Introduction to Electrical Engineering</td>
+                    <td>John Doe</td>
+                    <td>$29.99</td>
+                </tr>
+                <tr>
+                    <td>Mechanical Engineering Fundamentals</td>
+                    <td>Jane Smith</td>
+                    <td>$34.99</td>
+                </tr>
+                <!-- Add more book entries as needed -->
+            </tbody>
+        </table>
+        <p>Total Price: $<span id="totalPrice">64.98</span></p>
+        <button onclick="proceedToCheckout()">Proceed to Checkout</button>
+    </section>
+    <footer>
+        <p>&copy; 2023 Ayush's Bookstore</p>
+    </footer>
+</body>
+</html>

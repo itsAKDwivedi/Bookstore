@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration - Ayush's Bookstore</title>
+    <link rel="stylesheet" href="styles.css">
+    li
+</head>
+<body>
+    <header>
+        <h1>User Registration</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html" target="_top">Home</a></li>
+                <li><a href="login.html" target="_top">Login</a></li>
+                <li><a href="catalogue.html" target="_top">Catalogue</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="registration_form">
+        <form onsubmit="return validateForm()">
+            <label for="name">Name:
+            <input type="text" id="name" name="name" required></label>
+
+            <label for="email">Email:
+            <input type="email" id="email" name="email" required></label>
+
+            <label for="phone">Phone:
+            <input type="number" id="phone" name="phone" required></label>
+
+            <label for="password">Password:
+            <input type="password" id="password" name="password" required></label>
+
+            <label for="gender">Gender:
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select></label>
+
+            <label for="dob">Date of Birth:
+            <input type="date" id="dob" name="dob" required></label>
+
+            <label for="terms">
+                <input type="checkbox" name="terms" class="inline" required>
+                I agree to the <a href="#" class="tc">Terms and Conditions</a>
+                <p class="terms">By registering, you agree to our <a href="#" class="tc">Privacy Policy</a>.</p>
+            </label>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <script src="index.js">
+    </script>
+
+    <footer>
+        <p>&copy; 2023 Ayush's Bookstore</p>
+    </footer>
+</body>
+</html>

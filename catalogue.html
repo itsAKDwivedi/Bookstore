@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Catalogue - Bookstore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Explore Our Book Catalogue</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html" target="_top">Home</a></li>
+                <li><a href="login.html" target="_top">Login</a></li>
+                <li><a href="catalogue.html" target="_top">Catalogue</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <a href="cart.html"><button>Go to Cart</button></a>
+        <h2>Featured Books</h2>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Book</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Price</th>
+                    <th>Select</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="images/book1.jpg" alt="Book 1"></td>
+                    <td>Introduction to Electrical Engineering</td>
+                    <td>John Doe</td>
+                    <td>Engineering</td>
+                    <td>$29.99</td>
+                    <td><input type="checkbox" name="addToCart"></td>
+                </tr>
+                <tr>
+                    <td><img src="images/book2.jpg" alt="Book 2"></td>
+                    <td>Mechanical Engineering Fundamentals</td>
+                    <td>Jane Smith</td>
+                    <td>Engineering</td>
+                    <td>$34.99</td>
+                    <td><input type="checkbox" name="addToCart"></td>
+                </tr>
+                <!-- Add more book entries as needed -->
+            </tbody>
+        </table>
+        
+    </section>
+    <footer>
+        <p>&copy; 2023 Ayush's Bookstore</p>
+    </footer>
+</body>
+</html>

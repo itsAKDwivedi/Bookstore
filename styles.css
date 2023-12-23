@@ -1,0 +1,158 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 9% 0 5% 0;
+    padding: 0;
+}
+
+header {
+    top: 0%;
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 0.1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+ 
+nav ul li {
+    display: inline;
+    margin-right: 18px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #dfdfe2;
+    text-decoration: none;
+}
+
+.login_form{
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.registration_form{
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+input, select {
+    padding: 0.5em;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 8px; 
+}
+
+
+label {
+    display: block;
+}
+
+p.options {
+    text-align: center;
+}
+
+.options a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+img {
+    max-block-size: 100px;
+    margin: 0 50% 0 50%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+section.welcome {
+    text-align: center;
+    padding: 50px;
+}
+
+section.welcome img {
+    margin: auto auto;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section.welcome p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+p a{
+    color: #3333339b;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+.tc {
+    color: #555;
+}
